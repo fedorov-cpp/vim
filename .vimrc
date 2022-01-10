@@ -10,7 +10,6 @@ Plugin 'The-NERD-tree'
 Plugin 'clang-complete'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'itchyny/lightline.vim'
-Plugin 'neoclide/coc.nvim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Conque-GDB'
 Plugin 'itchyny/vim-gitbranch'
@@ -18,9 +17,6 @@ Plugin 'ntpeters/vim-better-whitespace'
 " color schemes
 Plugin 'tomasiser/vim-code-dark'
 call vundle#end()
-
-call plug#begin('~/.vim/plugged')
-call plug#end()
 
 filetype plugin on
 
